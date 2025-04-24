@@ -33,5 +33,7 @@ This project allows you to easily run a lightweight Windows 11 container using D
 4. Run the setup script to start the container
 ```bash
    ./setup.sh
-
-
+```
+Security ℹ 
+Username: Docker
+Password:admin
