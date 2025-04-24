@@ -35,5 +35,5 @@ This project allows you to easily run a lightweight Windows 11 container using D
    ./setup.sh
 ```
 Security ℹ 
-Username: Docker
-Password:admin
+Username: ```Docker```
+Password:```admin```
