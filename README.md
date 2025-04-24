@@ -21,13 +21,15 @@ This project allows you to easily run a lightweight Windows 11 container using D
 1. Clone the repository:
 ```bash
    gh repo clone Mhaque555/Docker_win11
+```
 2. Navigate into the cloned repository folder
 ```bash
    cd Docker_win11
-
+```
 3. Make the setup script executable
 ```bash
    chmod +x setup.sh
+```
 4. Run the setup script to start the container
 ```bash
    ./setup.sh
