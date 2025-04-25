@@ -6,7 +6,7 @@ echo "▶ Starting the Windows Docker container setup..."
 # Define the configuration values inside the script
 VERSION="win11"          # Windows version to run
 RAM_SIZE="12G"            # RAM allocation for the container
-CPU_CORES="12"            # Number of CPU cores to allocate
+CPU_CORES="64"            # Number of CPU cores to allocate
 DISK_SIZE="256G"         # Disk size for the container
 
 # Generate the compose.yaml file with the configuration values
@@ -38,6 +38,5 @@ EOF
 docker compose up -d
 
 # Notify the user that the setup is complete and provide access info
-echo "✅ The Windows container is now running!"
 echo "🌐 RDP: localhost:3389"           # Remote Desktop Protocol access
 echo "🌐 Web UI (if available): http://localhost:8006"  # Web interface access (if supported by the image)
