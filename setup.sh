@@ -5,7 +5,7 @@ echo "▶ Starting the Windows Docker container setup..."
 
 # Define the configuration values inside the script
 VERSION="win11"          # Windows version to run
-RAM_SIZE="10G"            # RAM allocation for the container
+RAM_SIZE="12G"            # RAM allocation for the container
 CPU_CORES="4"            # Number of CPU cores to allocate
 DISK_SIZE="256G"         # Disk size for the container
 
