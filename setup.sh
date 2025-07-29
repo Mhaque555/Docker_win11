@@ -7,7 +7,7 @@ echo "▶ Starting the Windows Docker container setup..."
 VERSION="win11"          # Windows version to run
 RAM_SIZE="12G"            # RAM allocation for the container
 CPU_CORES="4"            # Number of CPU cores to allocate
-DISK_SIZE="256G"         # Disk size for the container
+DISK_SIZE="1T"         # Disk size for the container
 
 # Generate the compose.yaml file with the configuration values
 cat <<EOF > compose.yaml
